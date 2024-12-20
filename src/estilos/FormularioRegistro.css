@@ -1,0 +1,68 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f4f9; /* Fondo suave */
+    border-radius: 8px; /* Bordes redondeados */
+  }
+  
+  .title {
+    text-align: center;
+    color: #333; /* Color oscuro para el título */
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px; /* Espacio debajo del título */
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espacio entre los campos */
+  }
+  
+  .label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000; /* Color gris oscuro para las etiquetas */
+    margin-bottom: 5px; /* Espacio debajo de las etiquetas */
+  }
+  
+  .input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Borde sutil para los campos */
+    outline: none;
+    transition: border-color 0.3s ease; /* Transición suave al enfocar el campo */
+  }
+  
+  .input:focus {
+    border-color: #6c63ff; /* Color de borde al enfocar el campo */
+  }
+  
+  .button {
+    padding: 12px 20px;
+    background-color: #6c63ff; /* Color llamativo para el fondo */
+    color: #fff; /* Texto blanco en el botón */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Puntero de mano al pasar el mouse */
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease; /* Transición para el cambio de color */
+  }
+  
+  .button:hover {
+    background-color: #5a54e0; /* Color más oscuro al pasar el mouse */
+  }
+  
+  .message {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #d4edda; /* Fondo verde suave para el mensaje de éxito */
+    color: #155724; /* Color verde para el texto */
+    border: 1px solid #c3e6cb; /* Borde verde claro */
+    border-radius: 5px;
+    white-space: pre-line;
+    font-family: Arial, sans-serif;
+  }
+  

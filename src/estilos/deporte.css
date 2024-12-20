@@ -1,0 +1,41 @@
+.deportes {
+  text-align: center;
+  background-color: #e8f6f3; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  width: 90%;
+  color: black;
+}
+.deportes h2 {
+  color: #148f77; 
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.deportes p {
+  color: #444;
+  font-size: 1.2em;
+}
+.galeria {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.imagenes {
+  margin: 10px;
+  text-align: center;
+}
+
+.imagenes img {
+  max-width: 200px; 
+  height: auto;
+  border-radius: 10px; 
+}
+
+.imagenes h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}

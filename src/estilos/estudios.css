@@ -1,0 +1,21 @@
+.estudios {
+  text-align: center;
+  background-color: #fcf3cf; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  width: 90%;
+  color: black;
+}
+
+.estudios h2 {
+  color: #d4ac0d; 
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.estudios p {
+  color: #444;
+  font-size: 1.2em;
+}
